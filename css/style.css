@@ -1,0 +1,702 @@
+* {
+box-sizing: border-box;
+text-decoration: none;
+margin: 0;
+
+
+}
+.progekt{
+height: 5100px;
+width: 1440px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+body{
+
+	margin: 0 auto;
+	max-width: 1440px;
+	font-family: Montserrat;	
+}
+.main_hed{
+	width: 1180px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.conthed{
+	width: 700px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	align-items: center;
+	justify-self: flex-end;
+
+}
+.hedtext1{
+	color: white;
+font-weight: 400;
+
+line-height: 119.62%;
+}
+.hedtext{
+color: white;
+font-weight: 400;
+font-size: 14px;
+
+}
+.l{
+	background: white;
+	color: orange;
+text-align: center;
+
+height: 42px;
+width: 140px;
+align-items: center;
+border-radius: 50px;
+padding-top: 10px;
+
+}
+.hedtext2{
+	color: orange;
+font-weight: 700;
+font-size: 14px;
+line-height: 119.62%;
+
+}
+.cont2{
+	width: 750px;
+	height: 500px;
+	display: flex;
+	justify-content: flex-end;
+
+	align-items: flex-start;
+	position: relative;
+
+}
+.cotext{
+	width: 430px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: flex-end;
+	justify-content: space-between;
+
+}
+.row1{
+	width: 500px;
+	height: 40px;
+	display: flex;
+	justify-content: center ;
+	color: white;
+}
+.tex{
+font-weight: bold;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+	font-size: 40px;
+	color: white;
+}
+.buton{
+	width: 140px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border-radius: 60px;
+	background: #64E2CD80;
+	height: 77px;
+	width: 223px;
+	border-radius: 50px;
+
+
+}
+.buutontext{
+	width: 120px;
+	height: 40px;
+	border-radius: 60px;
+	background: #64E2CD;
+	text-align: center;
+
+height: 50px;
+width: 192px;
+border-radius: 50px;
+
+
+}
+.contraband{
+	width: 460px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: flex-start;
+	align-items: flex-end;
+	justify-self: flex-end;
+
+
+}
+.div{
+	width: 650px;
+	height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+
+
+}
+.container{
+	margin: 0 auto;
+width: 1440px;
+height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center ;
+	background-image: url(../img/fon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: right;
+
+
+	
+
+}
+.circle{
+height: 261px;
+width: 261px;
+right: 660px;
+top: 280px;
+position: absolute;
+background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 16px solid #01579b;
+display: flex;
+text-align: center;
+border-radius: 150px;
+justify-content: center;
+align-items: center;
+
+
+}
+.ocinka{
+font-size: 20px;
+
+
+
+color:#2F80ED
+}
+.tocnoocinkak{
+	font-size:30px;
+	color: orange;
+}
+.circont{
+	height: 180px;
+	width: 180px;
+	display: flex;
+	flex-direction: column;
+text-align: center;
+justify-content: space-around;
+text-align: center;
+
+}
+.cirrow{
+	width: 120px;
+	height:30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-self: center;
+}
+.oc{
+	font-size: 30px;
+	color: orange;
+}
+.p{
+	color:#2F80ED;
+
+}
+.schol{
+	color:#2F80ED;
+	font-size:16px;
+	
+}
+.vidgek{
+	color:#2F80ED;
+}
+.contrk{
+	background-image: url(../img/fonchik.png);
+height: 601px;
+width: 1327px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+background-repeat: no-repeat;
+
+}
+.block1{
+width: 418px;
+height: 478px;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+.he2{
+	width: 549px;
+	height: 70px;
+	font-size: 30px;
+	font-weight: 800;
+
+}
+.pte{
+	color: black;
+	font-size: 30px;
+}
+.mainfant{
+	width: 539px;
+	height: 318px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+}
+.fahed{
+	color: orange;
+	font-size: 15px;
+	
+}
+.fatext{
+	color: grey;
+
+}
+.imaage{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.te{
+	color: #2F80ED;
+	font-size: 14px;
+	border-bottom: 2px dashed #2F80ED;
+	font-weight: 800;
+	width: 310px;
+}
+.imaaaaaaage{
+	box-shadow: -1px 10px 99px 1px rgba(199, 179, 198);
+	background-image: url(../img/logo_school1.png);
+	width: 309px;
+	height: 309px;
+	border-radius: 100%;	
+	align-self: flex-start;
+}
+.block3{
+background-image: url(../img/fon3.jpg);  
+background-size: cover;
+height: 900px;
+width: 1244px;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.rblock3{
+height: 668px;
+width: 944px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+}
+.mainproget{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1244px;
+	height: 700px;
+}
+.secprog{
+background: white;
+height: 278px;
+width: 565px;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+
+}
+.myprog{
+	color: white;
+font-size: 30px;
+font-weight: 700;
+
+}
+.divchik{
+	width: 400px;
+height: 300px;
+display: flex;
+align-items: center;
+}
+.blockcss{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.html{
+	width: 98px;
+	height: 40px;
+	color: white;
+	background: #FFA800;
+font-size: 14px;
+font-weight: 600;
+text-align: center;
+padding-top: 10px;
+border-radius: 10px 0px 0px 10px;
+}
+.cont4{
+width: 1266px;
+height: 983px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: relative;
+
+}
+.header{
+font-size: 30px;
+font-weight: 700;
+
+}
+.block2{
+	width: 1230px;
+	height: 496px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textblock4{
+height: 212px;
+width: 351px;
+border-radius: 10px;
+box-shadow: 0px 30px 100px 0px #2F37EDB2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blue{
+color: #2F80ED;
+font-size: 16px;
+font-weight: 400;
+}
+.teext{
+height: 114px;
+width: 257px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;	
+align-items: flex-start;
+}
+.oles{
+	color:#FFA800 ;	
+font-size: 30px;
+font-weight: 300;
+
+}
+.cirl{
+position: absolute;
+width: 197px;
+height: 197px;
+top: 390px;
+left: 1080px;
+
+background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+filter: blur(10px);
+
+box-shadow: 0px 30px 50px 0px #779DFF4D;
+border-radius: 90px;
+}
+.mainfan{
+	width:1266px ;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+.natext{
+height: 400px;
+width: 1266px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.sec{
+	width: 250px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.sectext{
+	color: #2F80ED;
+font-size: 16px;
+font-weight: 600;
+
+}
+.stext{
+	color: #636363;
+
+}
+.cont5{
+	width: 1440px;
+	height: 682px;
+	display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.hedik{
+	height: 87px;
+width: 1440px;
+color: black;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+
+
+}
+.index{
+	align-self:center;
+	width: 200px;
+	height: 10px;
+	text-align: left;
+}
+.mainimag{
+	width: 1440px;
+	height: 600px;
+
+}
+.imagig3{
+	position: absolute;
+	left: 1200px;
+	bottom: 450px;
+	z-index: -1000;
+}
+.cont6{
+height: 736px;
+width: 1540px;
+position: relative;
+display: flex;
+justify-content: center;
+
+
+}
+.imagig2{
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	z-index: -1;
+}
+.imagig1{
+position: absolute;
+z-index: -10;
+bottom: 0;
+left: 0;
+}
+.mainfnati{
+
+}
+.contr6{
+	width: 800px;
+	height: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.heddi{
+font-size: 30px;
+font-weight: 700;
+
+}
+.mainfanti{
+	width: 1300px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.fant{
+height: 293px;
+width: 271px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background: white;
+box-shadow: 0px 20px 50px 0px #2F37ED1F;
+border-radius: 10px;
+position: relative;
+
+}
+.fatextblock{
+	height: 100px;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.fantih2{
+color: #2F80ED;
+font-size: 25px;
+}
+.fantih3{
+height: 32px;
+width: 153px;
+color: #2F80ED;
+
+font-size: 25px;
+
+}
+.fantitext{
+font-size: 16px;
+font-weight: 600;
+color: #2F80ED;
+font-size: 14px;
+font-weight: 600;
+text-align: center;
+
+
+}
+.fantitext1{
+font-size: 16px;
+font-weight: 600;
+color: #2F80ED;
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+width: 154px;
+height: 30px;
+
+}
+.buuton{
+height: 50px;
+width: 192px;
+border-radius: 50px;
+background: #52D1BC;
+font-size: 14px;
+font-weight: 700;
+color: white;
+text-align: center;
+padding-top: 15px;
+
+}
+.rect{
+height: 90px;
+width: 90px;
+background: #FFA800;
+border-radius: 300px;
+position: absolute;
+bottom: 230px;
+left: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.vigodno{
+	color: white;
+}
+.footer{
+height: 270px;
+width: 1400px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background: #2F80ED;
+
+}
+.verh{
+	width: 1300px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+
+}
+.divverh{
+	width: 800px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.mu{
+	justify-self: flex-end;
+
+}
+.vmenenemafantazii{
+	width: 500px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.iv{
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+color: white;
+
+}
+.za{
+	color:white ;
+}
+.kru{
+	color:white ;
+}
+.mu{
+	color:white ;
+
+}
+.nuz{
+	height: 77px;
+width: 1400px;
+background: #185FBF;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.nuzdiv{
+	height: 77px;
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nuzp{
+opacity: 0.5;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+}
+.ntext{
+opacity: 0.5;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+}
+.progekt{
+
+}
